@@ -3,7 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import Emitter from './Emitter'
+var Emitter = require('npm-events')
+
+
+console.log(Emitter)
 
 Vue.config.productionTip = false
 
