@@ -6,7 +6,6 @@ import router from './router'
 var Emitter = require('npm-events')
 
 
-console.log(Emitter)
 
 Vue.config.productionTip = false
 
